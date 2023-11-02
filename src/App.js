@@ -27,7 +27,7 @@ function App() {
       </button>
 
       <h3 className="myslots">hello,user (user type: doctor) <br></br> my slots</h3>
-      <table>
+      <table style={{ border: 1 }}>
         <tr>
           <th>date</th>
           <th>hour</th>
@@ -49,7 +49,7 @@ function App() {
       </table> <br></br>
 
       <h4 className="createslot">create slot</h4>
-      <table>
+      <table style={{ border: 1 }}>
         <tr>
           <th>date</th>
           <th>10/11/2023</th>
@@ -65,7 +65,7 @@ function App() {
       <br></br>
 
       <h5 className="myappointments">hello,user (user type: patient) <br></br>my appointments</h5>
-      <table>
+      <table style={{ border: 1 }}>
         <tr>
           <th>appointment date</th>
           <th>appointment time </th>
@@ -104,7 +104,7 @@ function App() {
       </table> <br></br>
 
       <h6 className="createappointment">create new appointment</h6>
-      <table>
+      <table style={{ border: 1 }}>
         <tr>
           <th>choose doctor</th>
           <th>
