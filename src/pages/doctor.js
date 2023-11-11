@@ -1,4 +1,5 @@
 import React from 'react';
+import Users from './users';
 
 const Doctor = () => {
   return (
@@ -43,6 +44,7 @@ const Doctor = () => {
       </button>
       <br></br>
       <br></br>
+      <users />
     </div>
   );
 }

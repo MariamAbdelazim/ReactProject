@@ -1,4 +1,5 @@
 import React from 'react';
+import Users from './users';
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <button type="sign up">
         <b>login</b>
       </button>
+      <users />
     </div>
   );
 }

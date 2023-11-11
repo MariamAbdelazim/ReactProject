@@ -1,5 +1,5 @@
 import React from 'react';
-import Users from './users';
+import Users from './pages/users';
 
 function App() {
   return (

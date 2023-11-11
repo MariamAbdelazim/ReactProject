@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import Users from './users';
 
 const Patient = () => {
   return (
@@ -69,6 +70,7 @@ const Patient = () => {
         <b>reserve</b>
       </button>{" "}
       <br></br>
+      <users />
     </div>
   );
 }
